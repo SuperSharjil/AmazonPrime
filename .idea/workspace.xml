@@ -7,7 +7,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/SuperSharjil/AmazonPrime.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1Zyj2xpuKrenuTTQPqXAFFnucPJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,7 +26,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="AmazonPrime" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\SuperSharjil\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -31,9 +66,61 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="411" y="178" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586360889631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="411" y="178" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586360889631" />
+    <state x="737" y="228" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586360866552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="737" y="228" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586360866552" />
+    <state x="737" y="277" key="FileChooserDialogImpl" timestamp="1586360489095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="737" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586360489095" />
     <state x="779" y="439" key="Github.CreateGistDialog" timestamp="1585818537473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585818537473" />
+    <state width="1362" height="328" key="GridCell.Tab.0.bottom" timestamp="1586360916350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
+    <state width="1362" height="328" key="GridCell.Tab.0.center" timestamp="1586360916350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
+    <state width="1362" height="328" key="GridCell.Tab.0.left" timestamp="1586360916350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
+    <state width="1362" height="328" key="GridCell.Tab.0.right" timestamp="1586360916350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
+    <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1586360916351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916351" />
+    <state width="1362" height="328" key="GridCell.Tab.1.center" timestamp="1586360916350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
+    <state width="1362" height="328" key="GridCell.Tab.1.left" timestamp="1586360916350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
+    <state width="1362" height="328" key="GridCell.Tab.1.right" timestamp="1586360916351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916351" />
+    <state x="458" y="165" key="SettingsEditor" timestamp="1586363088166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="458" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586363088166" />
+    <state x="653" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1586411976759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="653" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586411976759" />
   </component>
 </project>
