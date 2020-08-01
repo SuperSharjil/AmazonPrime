@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'AmazonPrime',
+    'user',
+    'video',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -80,7 +83,10 @@ DATABASES = {
         'USER': 'amazon',
         'PASSWORD': 'amazon',
         'HOST': '',
-        'PORT' : '',
+        'PORT': '',
+        'OPTIONS': {
+            'threaded': True,
+        }
     }
 }
 

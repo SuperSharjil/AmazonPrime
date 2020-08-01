@@ -7,6 +7,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -25,9 +33,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django-Tutorials-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\user" />
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\user\template" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -66,61 +81,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="411" y="178" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586360889631">
+    <state x="343" y="278" key="FileChooserDialogImpl" timestamp="1596009739092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="411" y="178" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586360889631" />
-    <state x="737" y="228" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586360866552">
+    <state x="343" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596009739092" />
+    <state x="738" y="434" key="com.intellij.ide.util.TipDialog" timestamp="1596256965174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="228" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586360866552" />
-    <state x="737" y="277" key="FileChooserDialogImpl" timestamp="1586360489095">
+    <state x="738" y="434" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596256965174" />
+    <state width="568" height="622" key="javadoc.popup" timestamp="1596008727594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="737" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586360489095" />
-    <state x="779" y="439" key="Github.CreateGistDialog" timestamp="1585818537473">
+    <state width="568" height="622" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596008727594" />
+    <state x="661" y="157" width="670" height="676" key="search.everywhere.popup" timestamp="1596007103897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="779" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585818537473" />
-    <state width="1362" height="328" key="GridCell.Tab.0.bottom" timestamp="1586360916350">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1362" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
-    <state width="1362" height="328" key="GridCell.Tab.0.center" timestamp="1586360916350">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1362" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
-    <state width="1362" height="328" key="GridCell.Tab.0.left" timestamp="1586360916350">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1362" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
-    <state width="1362" height="328" key="GridCell.Tab.0.right" timestamp="1586360916350">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1362" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
-    <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1586360916351">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1362" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916351" />
-    <state width="1362" height="328" key="GridCell.Tab.1.center" timestamp="1586360916350">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1362" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
-    <state width="1362" height="328" key="GridCell.Tab.1.left" timestamp="1586360916350">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1362" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916350" />
-    <state width="1362" height="328" key="GridCell.Tab.1.right" timestamp="1586360916351">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1362" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586360916351" />
-    <state x="458" y="165" key="SettingsEditor" timestamp="1586363088166">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="458" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586363088166" />
-    <state x="653" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1586411976759">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="653" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586411976759" />
+    <state x="661" y="157" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596007103897" />
   </component>
 </project>
