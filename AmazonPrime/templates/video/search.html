@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+
+<br><br>
+<form action="/video/search/" method="get">
+	<input type="hidden" id="AdvancedSearch" name="AdvancedSearch" value="1">
+    <select id="category" name="category">
+        {% for category in category %}
+            <option value="{{ category.category_id }}">{{ category.category_name }}</option>
+        {% endfor %}
+    </select>
+    <select id="country" name="country">
+        {% for country in country %}
+            <option value="{{ country.country_id }}">{{ country.country_name }}</option>
+        {% endfor %}
+    </select>
+    <select id="language" name="language">
+        {% for language in language %}
+            <option value="{{ language.language_id }}">{{ language.language_name }}</option>
+        {% endfor %}
+    </select>
+    <input type="text" placeholder="Find by titles" id="title" name="title">
+    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+</form>
+
+<br><br>
+
+<h4 style="color:white;margin-left:50px">Search result for "{{ search }}"</h4>
+<br><br><br>
+
+    {% for video in video %}
+    <div style="margin-left:100px">
+        <a  href="/video/{{video.video_id}}/">
+        <table>
+            <tr>
+            <td rowspan="3" width="182px" height="268px"><img src="/static/images/poster/{{ video.video_id }}.jpg" width="182px" height="268px"></td>
+                <td colspan="2" width="600px" height="100px"><h1 style="color:white;margin-left:50px">{{ video.video_title }}</h1><h6 style="color:white;margin-left:50px">Rating : {{ trending.rating }}</h6></td>
+            </tr>
+            <tr>
+            <td rowspan="2" colspan="2"  width="600px" height="168px"><h5 style="color:white;margin-left:50px">{{ video.description }}</h5></td>
+            </tr>
+        </table>
+        </a>
+    </div><br><br><br>
+    {% endfor %}
+
+
+{% endblock %}

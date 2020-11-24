@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+
+<div style="margin-left:100px">
+
+    <table>
+        <tr>
+            <td rowspan="3" width="182px" height="268px"><img src="/static/images/series/{{ series.series_id }}.jpg" width="182px" height="268px"></td>
+            <td colspan="2" width="600px" height="100px"><h1 style="color:white;margin-left:50px">{{ series.series_title }}</h1><h6 style="color:white;margin-left:50px">Ongoing: {{ series.ongoing_status }}</h6></td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2"  width="600px" height="168px">
+                <h5 style="color:white;margin-left:50px">Seasons : {{ series.seasons }}</h5>
+                <h5 style="color:white;margin-left:50px">Episodes : {{ series.episodes }}</h5>
+                <h5 style="color:white;margin-left:50px">Start Date : {{ series.start_date }}</h5>
+            </td>
+        </tr>
+    </table><br><br><br>
+
+
+    {% for video in video %}
+    <div style="margin-left:100px">
+        <a href="/video/{{video.video_id}}/">
+            <h3 style="color:white">season : {{video.season_num}} | episode : {{video.episode_num}}</h3>
+        <table>
+            <tr>
+                <td rowspan="3" width="182px" height="268px">
+                    <img src="/static/images/poster/{{ video.video_id }}.jpg" width="182px" height="268px">
+                </td>
+                <td colspan="2" width="600px" height="100px">
+                    <h1 style="color:white;margin-left:50px">{{ video.video_title }}</h1>
+                    <h6 style="color:white;margin-left:50px">Rating : {{ video.rating }}</h6>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2"  width="600px" height="168px">
+                    <h5 style="color:white;margin-left:50px">{{ video.description }}</h5>
+                </td>
+            </tr>
+        </table>
+        </a>
+    </div><br><br><br>
+    {% endfor %}
+</div>
+
+
+
+
+{% endblock %}

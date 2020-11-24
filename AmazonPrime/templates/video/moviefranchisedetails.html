@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+
+<div style="margin-left:100px">
+
+    <table>
+        <tr>
+            <td rowspan="3" width="182px" height="268px"><img src="/static/images/movies/{{ franchise.franchise_id }}.jpg" width="182px" height="268px"></td>
+            <td colspan="2" width="600px" height="100px"><h1 style="color:white;margin-left:50px">{{ franchise.franchise_title }}</h1></td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2"  width="600px" height="168px">
+            </td>
+        </tr>
+    </table><br><br><br>
+
+
+    {% for movie in movie %}
+    <div style="margin-left:100px">
+        <a href="/video/{{movie.video_id}}/">
+            <h3 style="color:white">{{movie.release_date}}</h3>
+        <table>
+            <tr>
+                <td rowspan="3" width="182px" height="268px">
+                    <img src="/static/images/poster/{{ movie.video_id }}.jpg" width="182px" height="268px">
+                </td>
+                <td colspan="2" width="600px" height="100px">
+                    <h1 style="color:white;margin-left:50px">{{ movie.video_title }}</h1>
+                    <h6 style="color:white;margin-left:50px">Rating : {{ movie.rating }}</h6>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2"  width="600px" height="168px">
+                    <h5 style="color:white;margin-left:50px">{{ movie.description }}</h5>
+                </td>
+            </tr>
+        </table>
+        </a>
+    </div><br><br><br>
+    {% endfor %}
+</div>
+
+
+
+
+{% endblock %}

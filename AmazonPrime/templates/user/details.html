@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+
+<br><br>
+<h2 style="color:white">{{ user.user_name}}</h2>
+<h5 style="color:white">{{ user.email }}</h5>
+<h6 style="color:white">Date of Birth : {{ user.date_of_birth }}</h6>
+<br><br><br><br>
+<a href="/user/history/"><button class="btn btn-outline-warning my-2 my-sm-0">History</button></a>
+<br><br><br>
+    <p style="color:white"><a href="/user/payment/"><button class="btn btn-outline-warning my-2 my-sm-0">Subscription Renew</button></a> subscription over date : {{ sub.sub_over_date }}</p>
+<br>
+<a href="/user/change-password/"><button class="btn btn-outline-warning my-2 my-sm-0">Change Password</button></a>
+<br><br><br><br>
+<a href="/user/logout/"><button class="btn btn-outline-warning my-2 my-sm-0">Logout</button></a>
+<br>
+
+{% endblock %}

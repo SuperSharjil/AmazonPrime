@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+
+
+{% block body %}
+
+<form action="/user/login/" method="get">
+    <input type="text" placeholder="Email" id="email" name="email"><br>
+    <input type="text" placeholder="Password" id="password" name="password"><br><br><br>
+    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Log in</button>
+</form>
+<br><br><br>
+<p style="color:white">New to Prime? <a href="/user/signup/">Sign up</a> to watch</p>
+
+
+{% endblock %}

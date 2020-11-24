@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+<br>
+    {% for MoviesFranchise in MoviesFranchise %}
+    <div style="margin-left:100px">
+        <a  href="/video/movies/franchise/{{MoviesFranchise.franchise_id}}/">
+        <table>
+        <tr>
+            <td rowspan="3" width="182px" height="268px"><img src="/static/images/movies/{{ MoviesFranchise.franchise_id }}.jpg" width="182px" height="268px"></td>
+            <td colspan="2" width="600px" height="100px"><h1 style="color:white;margin-left:50px">{{ MoviesFranchise.franchise_title }}</h1></td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2"  width="600px" height="168px">
+            </td>
+        </tr>
+    </table>
+        </a>
+    </div><br><br><br>
+    {% endfor %}
+
+
+
+{% endblock %}

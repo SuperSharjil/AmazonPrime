@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+
+<form action="/user/signing-up/" method="get">
+    <input type="text" placeholder="Name" id="name" name="name"><br>
+    <input type="email" placeholder="Email" id="email" name="email"><br>
+    <input type="password" placeholder="Password" id="password" name="password"><br>
+    <input type="password" placeholder="Retype Password" id="re_password" name="re_password"><br>
+    <input type="text" pattern="[0-9]{9}" placeholder="Credit Card Number" id="credit" name="credit"><br>
+    <input type="date" placeholder="Date Of Birth" id="date_of_birth" name="date_of_birth"><br>
+    <select id="country" name="country">
+        {% for country in country %}
+            <option value="{{ country.country_id }}">{{ country.country_name }}</option>
+        {% endfor %}
+    </select><br><br><br><br><br>
+    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Sign up</button>
+</form>
+
+{% endblock %}

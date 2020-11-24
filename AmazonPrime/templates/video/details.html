@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+
+<div style="margin-left:100px">
+    <table>
+        <tr>
+            <td colspan="5" width="1280px" height="720px" >
+                <video width="1280px" height="720px" style="margin-top:50px;margin-bottom:50px" controls>
+                    <source src="../../static/videos/{{ video.video_id }}.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h5 style="color:white">{{ video.watch_count }} views</h5><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" width="182px" height="268px">
+                <img src="../../static/images/poster/{{ video.video_id }}.jpg" width="182px" height="268px">
+            </td>
+            <td colspan="4" width="1000px" height="100px">
+                <h2 style="color:white;margin-left:50px">{{ video.video_title }}</h2>
+                <h6 style="color:white;margin-left:50px">Rating : {{ video.rating }}</h6>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="4"  width="100px" height="168px">
+                <h6 style="color:white;margin-left:50px">{{ video.category }}</h6>
+                <h6 style="color:white;margin-left:50px">{{ video.release_date }}</h6>
+                <h5 style="color:white;margin-left:50px">{{ video.description }}</h5>
+            </td>
+        </tr>
+    </table>
+</div>
+<br><br>
+<div style="margin-left:100px">
+    <h3 style="color:white;">Cast & Crew</h3>
+    {% for cast in cast %}
+    <a href="/video/cast/{{ cast.cast_id }}"><b style="color:white;font-size:20px">{{ cast.cast_name }}, </b></a>
+    {% endfor %}
+</div>
+
+<br><br><br><br><br>
+
+<div style="color:white;margin-left:100px">
+<h3>Your rating : {{ rating.rating }}</h3>
+<form class="form-inline mt-2 mt-md-0" action="/video/rate/{{ video.video_id }}" method="get">
+    <select id="rating" name="rating">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Rate</button>
+</form>
+</div>
+
+
+{% endblock %}

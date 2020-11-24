@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,19 +29,27 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django-Tutorials-master" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AmazonPrime/templates/video" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\user" />
-      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\user\template" />
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\AmazonPrime\templates\video" />
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\AmazonPrime\templates" />
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\AmazonPrime\static\images\cover" />
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\AmazonPrime\static\images\video" />
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\AmazonPrime\static\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\AmazonPrime\templates\video" />
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\AmazonPrime\images" />
+      <recent name="C:\Users\SuperSharjil\Desktop\AmazonPrime\AmazonPrime\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -67,6 +75,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -81,21 +90,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="343" y="278" key="FileChooserDialogImpl" timestamp="1596009739092">
+    <state x="667" y="196" key="#Inspections" timestamp="1604316108235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="343" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596009739092" />
-    <state x="738" y="434" key="com.intellij.ide.util.TipDialog" timestamp="1596256965174">
+    <state x="667" y="196" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1604316108235" />
+    <state x="771" y="264" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604488559228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="738" y="434" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596256965174" />
+    <state x="771" y="264" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604488559228" />
+    <state x="343" y="278" key="FileChooserDialogImpl" timestamp="1596289566042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="343" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596289566042" />
+    <state x="766" y="160" key="SettingsEditor" timestamp="1596532929381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="160" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596532929381" />
+    <state x="738" y="434" key="com.intellij.ide.util.TipDialog" timestamp="1596431224020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="434" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596431224020" />
     <state width="568" height="622" key="javadoc.popup" timestamp="1596008727594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="568" height="622" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596008727594" />
-    <state x="661" y="157" width="670" height="676" key="search.everywhere.popup" timestamp="1596007103897">
+    <state x="661" y="157" width="672" height="676" key="search.everywhere.popup" timestamp="1596529030984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="157" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596007103897" />
+    <state x="661" y="157" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596529030984" />
   </component>
 </project>
